@@ -1,11 +1,19 @@
 import { GeotabApi } from "adv-mg-api-js";
 
 const api = new GeotabApi({
-  userName: "asdfas",
-  password: "Asdfasd",
-  database: "asdafdasd",
+  credentials: {
+    userName: "asdfas",
+    database: "asdfsad",
+    password: "asdfasd",
+  },
 });
 
 async function run() {
-  await api.call("Get", {});
+  await api.authenticate();
+  const logRecord = await api.call("Get", {
+    typeName: "LogRecord",
+    resultsLimit: 10,
+  });
 }
+
+run();

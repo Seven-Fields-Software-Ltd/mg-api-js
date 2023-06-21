@@ -52,5 +52,6 @@
   "mocha": {
     "timeout": 11000,
     "reporter": "spec"
-  }
+  },
+  "packageManager": "yarn@3.6.0"
 }

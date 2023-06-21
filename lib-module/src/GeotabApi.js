@@ -1,4 +1,4 @@
-const ApiHelper = require("./ApiHelper.js").default;
+import { ApiHelper } from "./ApiHelper.js";
 
 /**
  * Entrypoint to API. Separate class is used to expose "public"
@@ -214,5 +214,3 @@ export class GeotabApi {
     return this.authenticate();
   }
 }
-
-exports.default = GeotabApi;
