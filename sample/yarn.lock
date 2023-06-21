@@ -7,10 +7,10 @@ __metadata:
 
 "adv-mg-api-js@file:../lib-module::locator=sample%40workspace%3A.":
   version: 0.0.0
-  resolution: "adv-mg-api-js@file:../lib-module#../lib-module::hash=0c9277&locator=sample%40workspace%3A."
+  resolution: "adv-mg-api-js@file:../lib-module#../lib-module::hash=9a1e6f&locator=sample%40workspace%3A."
   dependencies:
     axios: ^1.4.0
-  checksum: 1877c7d30e225da1c51b156f3cdb9f1bef374a2fccb4d159122024758cae0a01040a6f60621fb41c898c98314accfa2b83810dd9f5ba73da0a731714b4b39c0a
+  checksum: 3f20538fdb835e82bc2a2f2152910cc4bbd2e8d5287774726f19f1f930689655b536dadd540bdb37b22bde59f3e8edff48d449524679067335d3d9883bc27920
   languageName: node
   linkType: hard
 
